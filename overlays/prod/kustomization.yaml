@@ -14,4 +14,4 @@ kind: Kustomization
 images:
 - name: teamcloudyuga/rsvpapp
   newName: nkhare/rsvpapp
-  newTag: 924d9fbbdd2ab5b6cadca5563f491f87913884d4
+  newTag: 62d6f67fec56ec9e49ac6c4bd53fd84ff4d33354
