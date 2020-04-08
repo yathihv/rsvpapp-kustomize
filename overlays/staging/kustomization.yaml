@@ -12,3 +12,7 @@ configMapGenerator:
   name: rsvpconfig-staging
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
+images:
+- name: teamcloudyuga/rsvpapp
+  newName: nkhare/rsvpapp
+  newTag: 62d6f67fec56ec9e49ac6c4bd53fd84ff4d33354
