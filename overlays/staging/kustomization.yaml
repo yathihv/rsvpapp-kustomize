@@ -13,6 +13,8 @@ configMapGenerator:
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
+- name: nkhare/rsvpapp
+  newTag: 27940a5f061ce077687d8fb37cbe1a178afc760d
 - name: teamcloudyuga/rsvpapp
   newName: nkhare/rsvpapp
   newTag: 924d9fbbdd2ab5b6cadca5563f491f87913884d4
