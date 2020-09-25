@@ -14,5 +14,5 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
 - name: teamcloudyuga/rsvpapp
-  newName: nkhare/rsvpapp
-  newTag: 30c024fe6395d69f33716c476f3d048940221122
+  newName: yathihv/rsvpapp
+  newTag: f7bdb5d397dc63a1134d7733158ae769ebbd3243
